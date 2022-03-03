@@ -1,0 +1,7 @@
+#!/bin/bash
+chgrp school hello
+#!/bin/bash
+chgrp school hello
+#!/bin/bash
+chgrp school hello
+
