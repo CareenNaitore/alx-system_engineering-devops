@@ -18,8 +18,8 @@ case $count in
     echo "bad luck from japan"
     ;;
 
-  14)
-    echo '14'
+  17)
+    echo '17'
     echo "bad luck from Italy"
     ;;
 
