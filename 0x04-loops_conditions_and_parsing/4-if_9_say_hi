@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 9 times and hi on the 9 number
+
+var="Best School"
+var2="Hi"
+count=0
+
+while [ $count -lt 10 ]
+do
+  ((count++))
+  if [[ "$count" == '9' ]]; then
+    echo "$var2"	  
+    continue
+  fi
+  echo "$var"
+done
+
