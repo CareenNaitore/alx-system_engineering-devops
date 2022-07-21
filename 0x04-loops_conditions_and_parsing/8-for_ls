@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Bash script that displays conted of the current directory in a list formart
+
+file=$(ls -1)
+for i in $file; do
+	echo "$i" | cut -d "-" -f2-
+done
+
