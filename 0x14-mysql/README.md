@@ -17,4 +17,4 @@ Load distribution: You can split the read operations between the 2 servers, redu
 
 5. MySQL backup
 What if the data center where both your primary and replica database servers are hosted are down because of a power outage or even worse: flooding, fire? Then all your data would inaccessible or lost. That’s why you want to backup and store them in a different system in another physical location. This can be achieved by dumping your MySQL data, compressing them and storing them in a different data center.
-Write a Bash script that generates a MySQL dump and creates a compressed archive out of it.
+Write a Bash script.
